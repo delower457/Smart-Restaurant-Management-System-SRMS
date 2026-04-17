@@ -1,0 +1,4 @@
+R001;Kacchi Biriany;300.00;20
+R002;Tehri;150.00;20
+D001;Borhani;80.00;20
+D002;Cold Drinks;40.00;20
