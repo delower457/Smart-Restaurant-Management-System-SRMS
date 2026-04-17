@@ -95,45 +95,62 @@ The architecture consists of:
 ### Step 1 — Compile
 ```bash
 gcc SRMS_CSE124_Project_Binary_Brains_68_A1_DIU.c -o SRMS
-Step 2 — Run
-Bash
+```
+
+### Step 2 — Run
+
+```bash
 ./SRMS
-(Windows: SRMS.exe)
+```
 
-Manager Mode Passwords
-222, 223, 457, 042, 017
+> **Windows:** `SRMS.exe`
 
-9. Example Workflow
-Customer Workflow
-Table Selection: Select a valid table number (1–50).
+### Manager Mode Passwords
 
-Order Placement: View the menu and place orders.
+`222` `223` `457` `042` `017`
 
-Inventory Update: System deducts stock automatically upon ordering.
+---
 
-Billing: Bill is displayed, and the order is added to the pending queue.
+## 9. Example Workflow
 
-Manager Workflow
-Authentication: Login using a valid password.
+### Customer Workflow
 
-Menu CRUD: Manage menu (add, update, delete items).
+1. **Table Selection:** Select a valid table number (1–50).
+2. **Order Placement:** View the menu and place orders.
+3. **Inventory Update:** System deducts stock automatically upon ordering.
+4. **Billing:** Bill is displayed, and the order is added to the pending queue.
 
-Queue Management: View all pending orders.
+### Manager Workflow
 
-Service: Serve orders in FIFO (First-In-First-Out) order.
+1. **Authentication:** Login using a valid password.
+2. **Menu CRUD:** Manage menu (add, update, delete items).
+3. **Queue Management:** View all pending orders.
+4. **Service:** Serve orders in FIFO (First-In-First-Out) order.
+5. **Monitoring:** Monitor stock and overall system status.
 
-Monitoring: Monitor stock and overall system status.
+---
 
-10. Project Structure
-Plaintext
+## 10. Project Structure
+
+```plaintext
 ├── SRMS_CSE124_Project_Binary_Brains_68_A1_DIU.c
 ├── menu.txt
 ├── README.md
 └── Additional (report/presentation files)
-11. Contributors
-Developed collaboratively by Binary Brains, ensuring aligned teamwork, structured development, and comprehensive testing across all modules.
+```
 
-12. License
+---
+
+## 11. Contributors
+
+Developed collaboratively by **Binary Brains**, ensuring aligned teamwork,
+structured development, and comprehensive testing across all modules.
+
+---
+
+## 12. License
+
+```
 Copyright (c) 2026 Md. Delower Sarker
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -153,5 +170,12 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-13. Acknowledgements
-Special thanks to Mr. Md. Jakaria Zobair, Course Instructor, for his continuous guidance, structured feedback, and academic support throughout the project lifecycle.
+```
+
+---
+
+## 13. Acknowledgements
+
+Special thanks to **Mr. Md. Jakaria Zobair**, Course Instructor, for his
+continuous guidance, structured feedback, and academic support throughout
+the project lifecycle.
