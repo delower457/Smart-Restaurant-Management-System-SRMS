@@ -90,8 +90,6 @@ The architecture consists of:
 
 ---
 
----
-
 ## 8. How to Run
 
 ### Step 1 — Compile
